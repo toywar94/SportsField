@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab1"
+        android:title="홈"
+        android:icon="@drawable/home"
+        />
+
+    <item
+        android:id="@+id/tab2"
+        android:icon="@drawable/locate"
+
+        android:title="내주변"/>
+
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/document"
+
+        android:title="등록 현황"/>
+
+    <item
+        android:id="@+id/tab4"
+        android:icon="@drawable/profil"
+
+        android:title="내정보"/>
+</menu>

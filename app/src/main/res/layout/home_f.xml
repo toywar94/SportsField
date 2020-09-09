@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/SF"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Sports Field"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="50dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+
+
+        <ImageView
+            android:id="@+id/imagebtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/main_grey" />
+
+        <ImageButton
+            android:id="@+id/soccer"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/soccerball"/>
+
+        <TextView
+            android:id="@+id/soccerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="축구장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/soccer"/>
+
+        <ImageButton
+            android:id="@+id/basketball2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/soccer"
+            android:background="@drawable/basketball"/>
+
+
+        <TextView
+            android:id="@+id/basketballName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="농구장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/soccerName"
+            android:layout_below="@+id/soccer"/>
+
+        <ImageButton
+            android:id="@+id/badminton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@id/basketball2"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/badminton"/>
+
+        <TextView
+            android:id="@+id/badmintonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="배드민턴장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/basketballName2"
+            android:layout_below="@+id/soccer"/>
+
+        <ImageButton
+            android:id="@+id/billiard"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="37dp"
+            android:layout_below="@+id/soccer"
+            android:background="@drawable/billiard"/>
+
+        <TextView
+            android:id="@+id/billiardName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="당구장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/billiard"/>
+
+
+
+        <ImageButton
+            android:id="@+id/swimpool"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="55dp"
+            android:layout_below="@+id/soccer"
+            android:layout_toRightOf="@id/billiard"
+            android:background="@drawable/swimpoll"/>
+
+        <TextView
+            android:id="@+id/swimpoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수영장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/billiardName"
+            android:layout_below="@+id/swimpool"/>
+
+
+
+        <ImageButton
+            android:id="@+id/putsal"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="45dp"
+            android:layout_below="@+id/soccer"
+            android:layout_toRightOf="@id/swimpool"
+            android:padding="0dp"
+            android:src="@drawable/putsal"/>
+
+        <TextView
+            android:id="@+id/putsalName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="풋살장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/swimpool"
+            android:layout_below="@+id/putsal"/>
+
+        <ImageButton
+            android:id="@+id/golf"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/billiardName"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/golf"
+            android:layout_marginTop="10dp"
+            android:background="#00ffffff"/>
+
+        <TextView
+            android:id="@+id/golfName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="골프장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="44dp"
+            android:layout_below="@+id/golf"/>
+
+        <ImageButton
+            android:id="@+id/tennis"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/swimpoolName"
+            android:layout_toRightOf="@+id/golf"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/tennis"
+            android:layout_marginTop="10dp"
+            android:background="#00ffffff"/>
+
+        <TextView
+            android:id="@+id/tennisName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="테니스장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginLeft="65dp"
+            android:layout_toRightOf="@+id/golfName"
+            android:layout_below="@+id/golf"/>
+
+        <ImageButton
+            android:id="@+id/baseBall"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/putsalName"
+            android:layout_toRightOf="@+id/tennis"
+            android:layout_marginLeft="58dp"
+            android:src="@drawable/baseball"
+            android:layout_marginTop="10dp"
+            android:background="#00ffffff"/>
+
+        <TextView
+            android:id="@+id/baseBallName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="야구장"
+            android:textStyle="bold"
+            android:textSize="19dp"
+
+            android:layout_marginLeft="65dp"
+            android:layout_toRightOf="@+id/tennisName"
+            android:layout_below="@+id/golf"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
