@@ -24,5 +24,5 @@
 * minSdkVersion : 15
 
 #### 개발 화면
-<img src="document/img/image1.jpg">
-<img src="document/img/image1.jpg">
+<img src="documents/img/image1.jpg"/>
+<img src="documents/img/image2.jpg"/>
