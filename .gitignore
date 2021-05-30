@@ -19,7 +19,7 @@
 /gradle.properties
 /build.gradle
 
-<!--google api key-->
+# googel api key
 /app/src/debug/res/values/google_maps_api.xml
 
 
