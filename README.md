@@ -1,10 +1,8 @@
 ## 스포츠 필드 SportsField
 
 ## 프로젝트 기획의도와 간략한 소개
-스포츠는 혼자 할 수 없는 운동이고 여러명이 모여야 할 수 있는 운동이다.</br>
-하지만 자신의 주변에서 나와 같은 운동을 하는 친구들은 찾기 힘들고 어려워</br>
-나와 같은 운동 취미를 갖고 있는 사람들과 같이 운동 할 수 있도록 스포츠시설,</br>
-날짜, 시간을 입력해 약속을 하고 같이 운동을 할 수 있게 해주는 어플이다. 
+&nbsp;&nbsp;나랑 같은 운동 취미를 갖고 있는 사람들과 운동 할 수 있도록 스포츠시설,</br>
+날짜, 시간을 입력해 약속을 잡고 같이 운동을 할 수 있게 해주는 어플이다. 
 
 ## 프로젝트 기술 소개
 
@@ -24,6 +22,6 @@
 * minSdkVersion : 15
 
 #### 개발 화면
-<img src="documents/img/image1.jpg"/>
-<img src="documents/img/image2.jpg"/>
-<img src="documents/img/image4.jpg"/>
+<img src="documents/img/image1.jpg" witdh="350px" height="300"/>
+<img src="documents/img/image2.jpg" witdh="350px" height="300"/>
+<img src="documents/img/image4.jpg" witdh="500" height="300"/>
