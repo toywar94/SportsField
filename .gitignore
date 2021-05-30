@@ -12,3 +12,15 @@
 /captures
 .externalNativeBuild
 .cxx
+
+<!--google api key-->
+app/src/debug/res/values/google_maps_api.xml
+
+settings.gradle
+gradlew
+gradlew.bat
+gradle.properties
+build.gradle
+.gitignore
+
+
