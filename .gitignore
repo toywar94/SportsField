@@ -13,15 +13,14 @@
 .externalNativeBuild
 .cxx
 
+/settings.gradle
+/gradlew
+/gradlew.bat
+/gradle.properties
+/build.gradle
 
 <!--google api key-->
-app/src/debug/res/values/google_maps_api.xml
+/app/src/debug/res/values/google_maps_api.xml
 
-settings.gradle
-gradlew
-gradlew.bat
-gradle.properties
-build.gradle
-.gitignore
 
 
